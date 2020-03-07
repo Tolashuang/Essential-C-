@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/thomas/Essential-Cplusplus/build",
+  "command": "/usr/bin/clang++-6.0    -g   -o \"CMakeFiles/./bin/utest.dir/Chapter1/Q&A1.5.cpp.o\" -c \"/home/thomas/Essential-Cplusplus/Chapter1/Q&A1.5.cpp\"",
+  "file": "/home/thomas/Essential-Cplusplus/Chapter1/Q&A1.5.cpp"
+}
+]
