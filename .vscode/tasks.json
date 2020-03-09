@@ -1,60 +1,25 @@
 {
-<<<<<<< HEAD
-// 有关 tasks.json 格式的文档，请参见
-    // https://go.microsoft.com/fwlink/?LinkId=733558
-=======
-    // See https://go.microsoft.com/fwlink/?LinkId=733558 
-    // for the documentation about the tasks.json format
->>>>>>> 1fd292f850cb7d6a08d18de0358a1e757e6395a9
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "type": "shell",
-<<<<<<< HEAD
-            "label": "g++.exe build active file",
-            "command": "C:\\MinGW\\bin\\g++.exe",
-=======
-            "label": "g++ build active file",
-            "command": "/usr/bin/g++",
->>>>>>> 1fd292f850cb7d6a08d18de0358a1e757e6395a9
-            "args": [
-                "-g",
-                "${file}",
-                "-o",
-<<<<<<< HEAD
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "C:\\MinGW\\bin"
-=======
-                "${fileDirname}/${fileBasenameNoExtension}"
-            ],
-            "options": {
-                "cwd": "/usr/bin"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": "build"
-        },
-        {
-            "type": "shell",
-            "label": "g++-7 build active file",
-            "command": "/usr/bin/g++-7",
-            "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
-            ],
-            "options": {
-                "cwd": "/usr/bin"
->>>>>>> 1fd292f850cb7d6a08d18de0358a1e757e6395a9
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": "build"
-        }
-    ]
-}
+    // 有关 tasks.json 格式的文档，请参见
+        // https://go.microsoft.com/fwlink/?LinkId=733558
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "type": "shell",
+                "label": "g++.exe build active file",
+                "command": "C:\\MinGW\\bin\\g++.exe",
+                "args": [
+                    "-g",
+                    "${file}",
+                    "-o",
+                    "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                ],
+                "options": {
+                    "cwd": "C:\\MinGW\\bin"
+                },
+                "problemMatcher": [
+                    "$gcc"
+                ],
+                "group": "build"
+            }
+        ]
+    }
